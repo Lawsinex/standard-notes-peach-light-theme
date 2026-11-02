@@ -1,0 +1,118 @@
+/* Peach Light 1.0.0 — a CSS-only Standard Notes theme.
+ * Neutral light surfaces, warm peach controls, readable dark-peach links.
+ * No scripts, fonts, images, imports, or remote CSS assets.
+ */
+:root {
+  color-scheme: light;
+  --sn-stylekit-theme-type: light;
+  --sn-stylekit-theme-name: peach-light;
+  --sn-stylekit-background-color: #FAFAFA;
+  --sn-stylekit-foreground-color: #171717;
+  --sn-stylekit-border-color: #D8D8D8;
+  --sn-stylekit-shadow-color: #00000014;
+  --sn-stylekit-contrast-background-color: #FFFFFF;
+  --sn-stylekit-contrast-foreground-color: #171717;
+  --sn-stylekit-contrast-border-color: #D8D8D8;
+  --sn-stylekit-secondary-background-color: #FFFFFF;
+  --sn-stylekit-secondary-foreground-color: #171717;
+  --sn-stylekit-secondary-border-color: #D8D8D8;
+  --sn-stylekit-secondary-contrast-background-color: #ECECEC;
+  --sn-stylekit-secondary-contrast-foreground-color: #171717;
+  --sn-stylekit-secondary-contrast-border-color: #D8D8D8;
+  --sn-stylekit-neutral-color: #5F5F5F;
+  --sn-stylekit-neutral-contrast-color: #FFFFFF;
+  --sn-stylekit-info-color: #9B4E24;
+  --sn-stylekit-info-color-darkened: #854019;
+  --sn-stylekit-info-contrast-color: #FFFFFF;
+  --sn-stylekit-info-backdrop-color: #FFF0E4;
+  --sn-stylekit-success-color: #2E6542;
+  --sn-stylekit-success-contrast-color: #FFFFFF;
+  --sn-stylekit-warning-color: #805A16;
+  --sn-stylekit-warning-contrast-color: #FFFFFF;
+  --sn-stylekit-danger-color: #A52D34;
+  --sn-stylekit-danger-contrast-color: #FFFFFF;
+  --sn-stylekit-danger-light-color: #FCE8E9;
+  --sn-stylekit-editor-background-color: #FAFAFA;
+  --sn-stylekit-editor-foreground-color: #171717;
+  --sn-stylekit-paragraph-text-color: #171717;
+  --sn-stylekit-input-placeholder-color: #5F5F5F;
+  --sn-stylekit-input-border-color: #D8D8D8;
+  --sn-stylekit-scrollbar-thumb-color: #A8A8A8;
+  --sn-stylekit-scrollbar-track-border-color: #D8D8D8;
+  --sn-stylekit-passive-color-0: #444444;
+  --sn-stylekit-passive-color-1: #5F5F5F;
+  --sn-stylekit-passive-color-2: #767676;
+  --sn-stylekit-passive-color-3: #D8D8D8;
+  --sn-stylekit-passive-color-4: #ECECEC;
+  --sn-stylekit-passive-color-4-opacity-variant: #5F5F5F18;
+  --sn-stylekit-passive-color-5: #FFFFFF;
+  --sn-stylekit-passive-color-6: #E5E5E5;
+  --sn-stylekit-passive-color-super-light: #F7F7F7;
+  --sn-stylekit-grey-1: var(--sn-stylekit-passive-color-1);
+  --sn-stylekit-grey-2: var(--sn-stylekit-passive-color-2);
+  --sn-stylekit-grey-3: var(--sn-stylekit-passive-color-3);
+  --sn-stylekit-grey-4: var(--sn-stylekit-passive-color-4);
+  --sn-stylekit-grey-4-opacity-variant: var(--sn-stylekit-passive-color-4-opacity-variant);
+  --sn-stylekit-grey-5: var(--sn-stylekit-passive-color-5);
+  --sn-stylekit-grey-6: var(--sn-stylekit-passive-color-6);
+  --sn-stylekit-accessory-tint-color-1: #9B4E24;
+  --sn-stylekit-accessory-tint-color-2: #9A4367;
+  --sn-stylekit-accessory-tint-color-3: #805A16;
+  --sn-stylekit-accessory-tint-color-4: #6C529E;
+  --sn-stylekit-accessory-tint-color-5: #2E6542;
+  --sn-stylekit-accessory-tint-color-6: #9B4E24;
+  --modal-background-color: #FFFFFF;
+  --preferences-background-color: #FAFAFA;
+  --preferences-navigation-icon-color: #5F5F5F;
+  --preferences-navigation-selected-background-color: #FFF0E4;
+  --popover-background-color: #FFFFFF;
+  --popover-border-color: #D8D8D8;
+  --normal-button-background-color: #FFFFFF;
+  --separator-color: #D8D8D8;
+  --editor-header-bar-background-color: #FAFAFA;
+  --editor-background-color: #FAFAFA;
+  --editor-foreground-color: #171717;
+  --editor-title-bar-border-bottom-color: #D8D8D8;
+  --editor-title-input-color: #171717;
+  --editor-pane-background-color: #FAFAFA;
+  --editor-pane-editor-background-color: #FAFAFA;
+  --editor-pane-editor-foreground-color: #171717;
+  --editor-pane-component-stack-item-background-color: #FFFFFF;
+  --items-column-background-color: #FAFAFA;
+  --items-column-items-background-color: #FAFAFA;
+  --items-column-border-left-color: #D8D8D8;
+  --items-column-border-right-color: #D8D8D8;
+  --items-column-search-background-color: #FFFFFF;
+  --item-cell-selected-background-color: #FFF0E4;
+  --item-cell-selected-border-left-color: #9B4E24;
+  --navigation-column-background-color: #FFFFFF;
+  --navigation-section-title-color: #5F5F5F;
+  --navigation-item-text-color: #171717;
+  --navigation-item-count-color: #5F5F5F;
+  --navigation-item-selected-background-color: #FFF0E4;
+  --dropdown-menu-radio-button-inactive-color: #5F5F5F;
+  --panel-resizer-background-color: #D8D8D8;
+  --link-element-color: #9B4E24;
+  --text-selection-color: #171717;
+  --text-selection-background-color: #FFC49A;
+  --sn-component-foreground-color: #171717;
+  --sn-component-background-color: #FAFAFA;
+  --sn-component-foreground-highlight-color: #9B4E24;
+  --sn-component-outer-border-color: #D8D8D8;
+  --sn-component-inner-border-color: #D8D8D8;
+  --sn-desktop-titlebar-bg-color: #FFFFFF;
+  --sn-desktop-titlebar-border-color: #D8D8D8;
+  --sn-desktop-titlebar-ui-color: #171717;
+  --sn-desktop-titlebar-ui-hover-color: #9B4E24;
+}
+
+/* Standard Notes uses the same info token for links and filled controls.
+ * Keep links dark enough for text contrast, and scope the pale fill to its
+ * existing background utility so filled controls retain dark labels/icons.
+ */
+.bg-info {
+  --sn-stylekit-info-color: #FFC49A;
+  --sn-stylekit-info-contrast-color: #171717;
+  background-color: #FFC49A;
+  color: #171717;
+}

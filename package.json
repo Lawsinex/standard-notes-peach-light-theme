@@ -1,0 +1,13 @@
+{
+  "name": "standard-notes-peach-light-theme",
+  "version": "1.0.0",
+  "description": "A light peach CSS theme for Standard Notes.",
+  "license": "MIT",
+  "main": "theme.css",
+  "sn": {
+    "name": "Peach Light",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "main": "theme.css"
+  }
+}

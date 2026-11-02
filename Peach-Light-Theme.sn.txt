@@ -1,0 +1,40 @@
+{
+  "version": "004",
+  "items": [
+    {
+      "uuid": "b87b6165-54f8-4018-be92-d4a2dc68d625",
+      "content_type": "SN|Theme",
+      "created_at": "2026-11-02T13:55:29.280Z",
+      "created_at_timestamp": 1793627729280,
+      "updated_at": "2026-11-02T13:55:29.280Z",
+      "updated_at_timestamp": 1793627729280,
+      "content": {
+        "name": "Peach Light",
+        "area": "themes",
+        "hosted_url": "https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-light-theme@v1.0.0/theme.css",
+        "package_info": {
+          "identifier": "io.github.lawsinex.standard-notes-peach-light",
+          "name": "Peach Light",
+          "content_type": "SN|Theme",
+          "area": "themes",
+          "version": "1.0.0",
+          "description": "Light neutral surfaces, warm peach controls and selections, dark readable text, and accessible dark-peach links. CSS only.",
+          "url": "https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-light-theme@v1.0.0/theme.css",
+          "download_url": "https://github.com/Lawsinex/standard-notes-peach-light-theme/archive/refs/tags/v1.0.0.zip",
+          "marketing_url": "https://github.com/Lawsinex/standard-notes-peach-light-theme",
+          "dock_icon": {
+            "type": "circle",
+            "background_color": "#FFC49A",
+            "foreground_color": "#171717",
+            "border_color": "#D8D8D8"
+          }
+        },
+        "valid_until": "1970-01-01T00:00:00.000Z",
+        "active": false,
+        "autoupdateDisabled": true,
+        "references": [],
+        "appData": {}
+      }
+    }
+  ]
+}

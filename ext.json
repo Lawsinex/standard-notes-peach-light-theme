@@ -1,0 +1,17 @@
+{
+  "identifier": "io.github.lawsinex.standard-notes-peach-light",
+  "name": "Peach Light",
+  "content_type": "SN|Theme",
+  "area": "themes",
+  "version": "1.0.0",
+  "description": "Light neutral surfaces, warm peach controls and selections, dark readable text, and accessible dark-peach links. CSS only.",
+  "url": "https://cdn.jsdelivr.net/gh/Lawsinex/standard-notes-peach-light-theme@v1.0.0/theme.css",
+  "download_url": "https://github.com/Lawsinex/standard-notes-peach-light-theme/archive/refs/tags/v1.0.0.zip",
+  "marketing_url": "https://github.com/Lawsinex/standard-notes-peach-light-theme",
+  "dock_icon": {
+    "type": "circle",
+    "background_color": "#FFC49A",
+    "foreground_color": "#171717",
+    "border_color": "#D8D8D8"
+  }
+}
