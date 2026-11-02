@@ -16,7 +16,13 @@ Select Peach Light in the quick-settings theme menu. To switch automatically, ch
 
 The current web URL installer rejects CDN manifests through its Content Security Policy, and GitHub raw manifests through credentialed CORS. The theme-only import uses the built-in data importer; normal stylesheet loading stays within the app's security policy. No browser protections need to be changed.
 
-The stylesheet is pinned to version 1.0.0. Automatic updates are disabled in the import package. No scripts or external assets are embedded. Third-party editors may apply independent styles. Native desktop and mobile rendering need separate verification.
+The stylesheet is pinned to version 1.0.0. Automatic updates are disabled in the import package. No scripts or external assets are embedded. Third-party editors may apply independent styles. Mobile rendering needs separate verification.
+
+## Verified on 2 November 2026
+
+Installed through the custom-plugin URL in the official Apple Silicon macOS app 3.202.11. Peach Light was selected and visually checked: light neutral surfaces, peach filled controls, dark labels, and pale peach selections rendered correctly. It is configured as the automatic light theme, paired with Peach Black as the automatic dark theme. The app remains signed out for the user to sign in later; account sync is not yet verified.
+
+After quitting and reopening the app, both automatic theme assignments were retained and Peach Black rendered for the current system dark appearance.
 
 ## Sources
 
